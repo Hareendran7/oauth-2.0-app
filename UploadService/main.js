@@ -6,7 +6,7 @@ $(document).ready(function(){
 
      // redirect_uri of the project
 
-     var redirect_uri = "https://localhost/UploadService/upload.html";
+     var redirect_uri = "http://localhost/UploadService/upload.html";
 
      // scope of the project
 
@@ -40,10 +40,7 @@ $(document).ready(function(){
         window.location = url;
 
 
-
-
      }
-
 
 
 });
