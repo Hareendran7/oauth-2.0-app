@@ -4,6 +4,7 @@ $(document).ready(function(){
     const urlParams = new URLSearchParams(window.location.search);
     const code = urlParams.get('code');
     const redirect_uri = "http://localhost/UploadService/upload.html";
+    const client_secret = "tVlsePa87Wk39N7P-Boia_ut"; 
     const scope = "https://www.googleapis.com/auth/drive";
     var access_token= "";
     var client_id = "539141918151-i3fccjbeoc8rfbrcp7kumrnpt4bqgbd4.apps.googleusercontent.com";
@@ -14,6 +15,7 @@ $(document).ready(function(){
         url: "https://www.googleapis.com/oauth2/v4/token",
         data: {code:code
             ,redirect_uri:redirect_uri,
+            client_secret:client_secret,
         client_id:client_id,
         scope:scope,
         grant_type:"authorization_code"},
