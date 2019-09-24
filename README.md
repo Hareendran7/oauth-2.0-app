@@ -10,4 +10,4 @@ A demo application to demonstrate the Open Authorization 2.0 Framework.
 3) The application can be accessed at http://localhost/UploadService/index.html
 
 
-The blogpost for this demo can be found at [this link]
+The blogpost for this demo can be found at [this link] (https://medium.com/@hareendran.1st/oauth-2-0-guide-for-novices-48023f4f12a3).
